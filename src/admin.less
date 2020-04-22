@@ -1,0 +1,42 @@
+.container{
+    display:flex;
+    .nav-left{
+        width:15%;
+        min-width: 200px;
+        height: calc(100vh);
+    }
+    .main{
+ 
+        flex:1;
+        background:#d7d7d7;
+        .main-page{
+            overflow:auto;
+            width:95%;
+            margin:30px auto;
+            background:#fff;
+            min-height: 500px;
+            border-radius: 5px;
+        }
+        .main-page div:nth-child(0){
+            width:100%;
+        }
+    }
+}
+div#loading{
+    position: absolute;
+    display: none;
+    width: 100vw;
+    height:100vh;
+    img{
+        width:100px;
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 2;
+    }
+
+ 
+}
