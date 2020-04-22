@@ -133,7 +133,6 @@ getPie2=()=>{
                 <Card title="饼图">
                 <ReactEcharts option={this.getPie2()}></ReactEcharts>
                 </Card>
-     
             </div>
         )
     }

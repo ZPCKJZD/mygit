@@ -11,6 +11,7 @@ import Table from './pages/table/table'
 import City from './pages/city/index'
 import Bar from './pages/echarts/bar'
 import Pie from './pages/echarts/pie'
+import Line from './pages/echarts/line'
 import {HashRouter as Router,Route,Switch} from 'react-router-dom'
 export default class Routers extends Component {
   render() {
@@ -29,6 +30,7 @@ export default class Routers extends Component {
                   <Route path='/admin/city' component={City}/>
                   <Route path='/admin/charts/bar' component={Bar}/>
                   <Route path='/admin/charts/pie' component={Pie}/>
+                  <Route path='/admin/charts/line' component={Line}/>
                   
                   
                   
